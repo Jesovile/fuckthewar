@@ -1,2 +1,1 @@
-# fuckthewar
-Fuck the war
+# Fuck the war

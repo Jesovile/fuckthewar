@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(184deg, rgba(2, 0, 36, 1) 0%, rgba(187, 7, 7, 1) 100%, rgba(0, 212, 255, 1) 100%);
+
+    overflow-y: hidden;
+}
+
+:root {
+    font-size: 4vw;
+}
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 24px;
+    }
+}
+
+*, :before, :after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, header, main, body, p {
+    margin: 0;
+}
+
+.FTW-Wrapper {
+    overflow-y: auto;
+    padding: 1.5em 16px 16px 16px;
+    height: 100vh;
+}
+
+.FTW-Block {
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+
+.Header_h1 {
+    padding-bottom: 1.5em;
+}
+
+.Main {
+    padding-bottom: 1.5em;
+}
+
+.Main_h2 {
+    padding-bottom: 0.75em;
+}
+
+.Main_h3 {
+    padding-bottom: 0.5em;
+}
+
+.Main_h4 {
+    padding-bottom: 1em;
+}
+
+.Main_p {
+    font-size: 0.75em;
+    opacity: 0.75;
+}
